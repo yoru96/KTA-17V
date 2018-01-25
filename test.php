@@ -2,7 +2,7 @@
 
 # phpinfo();
 // Kommentaar
-/* 
+/*
 Kommentaar
 mitmel
 real
@@ -37,7 +37,7 @@ $sum4 = $text + $number ;
 
 echo "First sum is: ".$sum." and second sum is: ".$sum2." and third sum is ".$sum3."<br>";
 echo "Text + number $sum4 <br>";
-    
+
 echo "Minu nimi $name";
 
 echo '<br>'.$_SERVER['REMOTE_ADDR'];
@@ -49,7 +49,7 @@ function log_ip(){
     $txt = $_SERVER['REMOTE_ADDR']." ".date("d-m-Y H:i:s")."\n";
     fwrite($file, $txt);
     fclose($file);
-    
+
 }
 
 log_ip();

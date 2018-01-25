@@ -1,0 +1,9 @@
+{
+    "type": "sftp",
+    "host": "172.18.24.47",
+    "username": "root",
+    "password": "cpnw3244X",
+    "port": 22,
+    "remotePath": "/var/www/hopheylalaley",
+    "uploadOnSave": true
+}

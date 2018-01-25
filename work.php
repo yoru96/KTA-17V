@@ -18,7 +18,7 @@ $day = "reede";
 # var_dump($myarr);
 
 for ($i = 0; $i < count($myarr); $i++){
-    if (strtoupper($myarr[$i]) == strtoupper($day)){   
+    if (strtoupper($myarr[$i]) == strtoupper($day)){
     echo "<strong>".$myarr[$i]." is is a workday</strong><br>";
     } elseif ($day == 'Laupäev' || $day == 'Pühapäev'){
         echo $day.' is "weekend"';
